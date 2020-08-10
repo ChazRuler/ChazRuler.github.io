@@ -62,33 +62,6 @@
     
     
     <entry>
-      <title>Anaconda离线安装</title>
-      <link href="/2020/08/09/anaconda%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/"/>
-      <url>/2020/08/09/anaconda%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</url>
-      
-        <content type="html"><![CDATA[<h1 id="离线安装"><a class="markdownIt-Anchor" href="#离线安装"></a> 离线安装</h1><p>在安装过程中，有一些包会太大，导致中途下载失败，所以可以选择在镜像源（<a href="https://mirrors.tuna.tsinghua.edu.cn/">清华源</a>）离线下载好包（压缩文件），将压缩文件放/anaconda3/pkgs中，进入该目录，然后在使用命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda install --offline (包压缩名字)</span><br><span class="line"><span class="meta">#</span><span class="bash"> example</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> conda install --offline tensorflow-base-2.2.0-gpu_py37h8a81be8_0.tar.bz2</span></span><br></pre></td></tr></table></figure><p>在安装过程中，有一些教程说使用</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install --usr -local</span><br></pre></td></tr></table></figure><p>但是使用上面这个命令会出现问题，在使用conda install安装时，这个包还是要求你重新下载，所以这个方法有风险</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Anaconda </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Anaconda </tag>
-            
-            <tag> 软件教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>jupyter notebook使用</title>
       <link href="/2020/08/09/anaconda_jupyter/"/>
       <url>/2020/08/09/anaconda_jupyter/</url>
@@ -107,9 +80,36 @@
       
         <tags>
             
+            <tag> jupyter </tag>
+            
             <tag> 软件教程 </tag>
             
-            <tag> jupyter </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Anaconda离线安装</title>
+      <link href="/2020/08/09/anaconda%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/"/>
+      <url>/2020/08/09/anaconda%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</url>
+      
+        <content type="html"><![CDATA[<h1 id="离线安装"><a class="markdownIt-Anchor" href="#离线安装"></a> 离线安装</h1><p>在安装过程中，有一些包会太大，导致中途下载失败，所以可以选择在镜像源（<a href="https://mirrors.tuna.tsinghua.edu.cn/">清华源</a>）离线下载好包（压缩文件），将压缩文件放/anaconda3/pkgs中，进入该目录，然后在使用命令</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">conda install --offline (包压缩名字)</span><br><span class="line"><span class="meta">#</span><span class="bash"> example</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> conda install --offline tensorflow-base-2.2.0-gpu_py37h8a81be8_0.tar.bz2</span></span><br></pre></td></tr></table></figure><p>在安装过程中，有一些教程说使用</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install --usr -local</span><br></pre></td></tr></table></figure><p>但是使用上面这个命令会出现问题，在使用conda install安装时，这个包还是要求你重新下载，所以这个方法有风险</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Anaconda </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+            <tag> Anaconda </tag>
             
         </tags>
       
